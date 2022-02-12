@@ -146,7 +146,7 @@ body {
 
 /*====  LOGO ============================ */
 .logo {
-    width: 16%;
+    width: 5.5rem;
     font: 700 1.31rem var(--title-font);
     color: var(--title-color);
     position: relative;
@@ -156,7 +156,8 @@ body {
     color: var(--base-color);
     font-size: calc(var(--subtitle-font-size) - 0.1rem);
     position: absolute;
-    right: -18%;
+    right: -.01rem;
+
 }
 
 .logo-alt span {
@@ -485,14 +486,13 @@ footer.section {
 }
 
 footer .logo {
-    width: 28%;
+    width: 6rem;
     display: inline-block;
     margin-bottom: 1.5rem;
 }
 
 footer .logo span {
     font-size: calc(var(--subtitle-font-size) + 0.2rem);
-    right: -55%;
 }
 
 footer .brand p {
@@ -521,7 +521,7 @@ footer .social a:hover {
     transform: translateY(-8px);
 }
 
-/* Back to top */
+/* Back to top */ 
 .back-to-top {
     background: var(--base-color);
     color: var(--text-color-light);

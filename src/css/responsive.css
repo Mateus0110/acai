@@ -2,16 +2,12 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .logo {
-        width: 6%;
-    }
-
     .logo span {
-        right: -32%;
+        right: 1%;
     }
 
     footer .logo {
-        width: 60%;
+        width: 6rem;
     }
 
     footer .logo span {
@@ -132,5 +128,9 @@
 
     footer .logo {
         font-size: 2.25rem;
+    }
+
+    footer .logo {
+        width: 8rem;
     }
 }
